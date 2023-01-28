@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --izquierda: rgb(202, 73, 58);
+    --centro: rgb(144, 52, 92);
+    --derecha: rgb(75, 40, 130);
+}
+
+header {
+    background: linear-gradient(to right, var(--izquierda), var(--centro), var(--derecha));
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 20px 30px rgb(154, 154, 154, 0.6);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 30px;
+}
+
+li div {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+nav img {
+    height: 30px;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    margin: 0;
+}
+
+div a p {
+    margin-top: 5px;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+nav div:hover {
+    transform: scale(1.1);
+}
+
+nav div:hover img,
+nav div:hover a p {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+.logo {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.buscar input {
+    width: 0px;
+    height: 30px;
+    padding: 0 20px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    text-align: center;
+    transition: all 0.6s ease;
+}
+
+.btn {
+    position: absolute;
+    top: 25px;
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    color: rgb(75, 40, 130);
+    font-size: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input {
+    width: 200px;
+}
+
+content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaNotificaciones p {
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.cajaNotificaciones {
+    margin-top: 120px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cajaNotificaciones div {
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    box-shadow: 5px 5px 5px rgb(154, 154, 154);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaNotificaciones div img {
+    height: 30px;
+}
+
+.cajaNotificaciones div p {
+    width: 70%;
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cajaNotificaciones .momentoNotificacion {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 40px;
+}
+
+.cajaNotificaciones .momentoNotificacion img {
+    height: 10px;
+}
+
+.cajaNotificaciones .botones {
+    margin: 0;
+    height: 30%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 0px 0px;
+}
+
+.cajaNotificaciones .botones p {
+    height: 40px;
+    width: 100px;
+    padding: 0;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.cajaNotificaciones .botones p:hover {
+    background: linear-gradient(to right, var(--izquierda), var(--centro), var(--derecha));
+    color: white;
+    cursor: pointer;
+}
+
+@keyframes AnimacionCajaNotificacionesIzquierda {
+    0% {
+        transform: translate(-100%, 0%);
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes Opacidad {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes AnimacionCajaNotificacionesDerecha {
+    0% {
+        transform: translate(200%, 0%);
+    }
+
+    100% {
+        transform: translate(0%, 0%);
+    }
+}
+
+.cajaNotificaciones .izquierda {
+    animation-name: AnimacionCajaNotificacionesIzquierda, Opacidad;
+    animation-duration: 0.7s;
+}
+
+.cajaNotificaciones .derecha {
+    animation-name: AnimacionCajaNotificacionesDerecha, Opacidad;
+    animation-duration: 0.7s;
+}
+
+
+
+@media (min-width: 900px) {
+    .cajaNotificaciones {
+        width: 60%;
+    }
+
+    .cajaNotificaciones div {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cajaNotificaciones {
+        width: 80%;
+    }
+
+    .cajaNotificaciones div {
+        width: 80%;
+    }
+}
