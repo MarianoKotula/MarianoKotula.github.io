@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap');
+
+:root{
+    --magenta: rgb(239, 52, 65);
+    --body-bg-color:hsl(200,54%,12%);
+    --violet:hsl(272,92%,32%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 26pt;
+    font-weight: bold;
+    color: black;
+}
+
+header{
+    background: linear-gradient(to left,var(--body-bg-color), var(--violet), var(--magenta));
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-header img{
+    height: 5vh;
+}
+
+li a img{
+    width: 4vw;
+}
+
+li{
+    padding-right: 2vw;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+/* Mariano */
+main{
+    background: linear-gradient(to left,var(--body-bg-color), var(--violet), var(--magenta));
+    min-height: 90vh;
+}
+
+div{
+    /*min-height: 45vh;*/
+    display: flex;
+    max-width: 100vw;
+    flex-wrap: wrap;
+    /*justify-content: space-around;
+    align-items: center;
+    align-content: center;*/
+}
+
+a{
+    /*padding-top: 34vh;
+    min-height: 35vh;*/
+    margin-top: 25px;
+    flex: 0 1 29vw;
+    /*border-radius: 15px;*/
+    background-color:transparent;
+    text-decoration: none;
+    text-align: center;
+}
+
+.amigos{
+    background-image: url(../img/PrincipalAmigos.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.chat{
+    background-image: url(../img/PrincipalConversación.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.historias{
+    background-image: url(../img/PrincipalHistorias.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.perfil{
+    background-image: url(../img/PrincipalPerfil.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.notificaciones{
+    background-image: url(../img/PrincipalNotificaciones.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+div a:hover{
+    filter: saturate(250%);
+    transition: filter 2s;
+    animation: Reescalar 1s ease none infinite alternate;
+}
+
+@keyframes Reescalar{
+    from {scale: 1;}
+    to {scale: 1.1;}
+}
+
+.fila-menu{
+    min-height:45vh;
+    justify-content:space-around
+    ;align-items:center;
+}
+
+.fila-menu .caja-menu{
+    border-radius:15px;
+    min-height:35vh;
+    justify-content:space-around;
+}
+.fila-menu .caja-menu .texto{
+    align-content:flex-end;
+    padding:10px;
+    text-align:center;
+}
+
+
+    
