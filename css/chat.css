@@ -1,0 +1,340 @@
+#all{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#pers{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+#chat{
+    display: flex;
+    width: 70%;
+    border: 1px solid black;
+    flex-direction: column;
+}
+#pers1{
+    background: linear-gradient(to right, hsl(200,54%,12%), hsl(272,92%,32%), rgb(239, 52, 65));
+    border: 1px solid black;
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    color: #FAFAFA;
+}
+
+#pers2{
+    border: 1px solid black;
+    width: 100%;
+    height: 10%;
+    flex-direction: row;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    color: #FAFAFA;
+    background: linear-gradient(to right, #ef3441, #0e242f);
+}
+#pers2:hover{
+    filter: brightness(120%);
+}
+#chatpers{
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    background: linear-gradient(to right, hsl(200,54%,12%), hsl(272,92%,32%), rgb(239, 52, 65));
+    color: #FAFAFA;
+}
+#chatxt{
+    border: 1px solid black;
+    height: 80%;
+    width: 100%;
+    background: #17213c;
+}
+#chatxt2{
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right, hsl(200,54%,12%), hsl(272,92%,32%), rgb(239, 52, 65));
+    flex-direction: row;
+}
+#foto{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pers1 img{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    border-radius: 40px;
+}
+#pers2 img{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    border-radius: 40px;
+}
+#ayuda{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+#nombre{
+    height: 50%;
+    width: 100%;
+    font-family:'Montserrat', sans-serif;
+    font-size: 11pt;
+    margin: 20px 20px 0px ;
+    font-weight: bold;
+    display: flex;
+}
+#mensaje{
+    width: 100%;
+    height: 50%;
+    font-family:'Montserrat', sans-serif;
+    font-size: 9pt;
+    margin: 5px 40px;
+    display: flex;
+  }
+#timer {
+    height: auto;
+    width: auto;
+    margin-left: 15%;
+    font-family:'Open Sans', sans-serif;
+    font-size: 11px;
+    padding: 3px 8px;
+    color: #FAFAFA;
+    border-radius: 15px;
+    display: flex;
+    margin-right: 5px;
+    background: none;
+    text-align: center;
+    border: 1px white solid;
+    align-items: center;
+  }
+#barra{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+#barra input{
+    border-radius: 20px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    background: #17213c;
+    color: #FAFAFA;
+    border: 1px white solid;
+  }
+#opciones{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+#home img:hover{
+    animation: home 2s linear;
+
+}
+
+@keyframes home {
+    to{
+        transform: scale(1.25);
+    }
+}
+#opciones img{
+    height: 60%;
+    width: 100%;
+    background: none;
+    
+}
+
+@keyframes opcion {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#ajustes img:hover{
+    animation: opcion 5s linear infinite;
+}
+#emotes{
+    height: 100%;
+    width: 5%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#emotes img{
+    width: 70%;
+    height: 50%;
+    cursor: pointer;
+    display: flex;
+    animation: emote linear;
+}
+@keyframes emote {
+    to{
+        transform: scale(1.25);
+    }
+}
+#emotes img:hover{
+    animation: busca 2s linear;
+}
+#escribir{
+    height: 80%;
+    width: 90%;
+    align-self: center;
+    display: flex;
+}
+#escribir input{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    background: #17213c;
+    color: #FAFAFA;
+    border: 1px white solid;
+    font-size: 15pt;
+}
+#enviar{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#enviar img{
+    width: 70%;
+    height: 50%;
+    cursor: pointer;
+    animation: envia 3s linear;
+}
+@keyframes envia {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.25);
+    }
+}
+#enviar img:hover{
+    animation: busca 2s linear;
+}
+#chatpers #foto{
+    width: 5%;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#chatpers img{
+    display: flex;
+    width: 80%;
+    height: 60%;
+    background: #E6E7ED;
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+    margin-left: 2px;
+}
+#chatpers #persona{
+    width: 75%;
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+}
+#chatpers #persona p{
+    font-size: 9pt;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+
+}
+#chatpers #busqueda{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+@keyframes busca {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.25);
+    }
+}
+#busqueda .buscar:hover{
+    animation: busca 2s linear;
+}
+#busqueda .opciones:hover{
+    animation: busca 2s linear;
+}
+#chatpers #busqueda img{
+    width: 20%;
+    height: 35%;
+    cursor: pointer;
+    margin-right: 25px;
+    background:none
+}
+#chatxt #txt1{
+    width: 100%;
+    height: 14%;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#chatxt #txt2{
+    width: 100%;
+    height: 14%;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right{
+    width: auto;
+    height: auto;
+    display: block;
+    border-radius: 50px;
+    margin-right: 5px;
+    padding: 10px;
+    color: #FAFAFA;
+    background: #b0303c;
+}
+.left{
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 5px;
+    padding: 10px;
+   color: #FAFAFA;
+   background: #b0303c;
+}
