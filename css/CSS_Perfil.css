@@ -98,7 +98,7 @@ main
 
 .colores
 {
-    background: linear-gradient(to right,rgb(29, 30, 69), var(--violet), rgb(208, 43, 83));
+    background: linear-gradient(to right,rgb(23, 24, 56), var(--violet), rgb(151, 12, 43));
     padding-top: 10vh;
     display: flex;
     margin-left: 10vw;
