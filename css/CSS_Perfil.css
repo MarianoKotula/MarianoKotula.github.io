@@ -68,7 +68,7 @@ main
 {
     /*background: linear-gradient(rgba(208, 43, 84, 0.582),rgb(138, 82, 186),rgb(70, 71, 126));*/
     background: linear-gradient(rgb(70, 71, 126),rgb(138, 82, 186),rgba(208, 43, 84, 0.582));
-    height: 94vh;
+    height: 110vh;
     position: absolute;
     width: 100vw;
     
