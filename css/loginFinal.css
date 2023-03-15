@@ -101,6 +101,9 @@ a{
     left: 0;
     top:5% ;
     transform: translateX(-50%);
+    animation-name: circle1;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
 }
 
 .form-content .circle-2{
@@ -109,6 +112,9 @@ a{
     right: 0;
     bottom: 0 ;
     transform: translate(20%, 20%);
+    animation-name: circle2;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
 }
 
 .form-content .circle-3{
@@ -116,6 +122,9 @@ a{
     width: 50px;
     right: 10%;
     top: 5% ;
+    animation-name: circle3;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
 }
 
 
@@ -148,6 +157,9 @@ a{
     text-align: center;
     height: 55px;
     margin-bottom: 20px;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-iteration-count:initial;
 }
 
 
@@ -229,4 +241,47 @@ a{
     margin-top: 40px;
     width: 25px;
     position: relative; 
+}
+
+@keyframes circle1 {
+    0%   {
+        transform: translate(-800%,-100%) skew(10deg);
+
+    }
+    50%  {
+        transform: translateX(0%) skew(0deg);
+    }
+}
+
+
+@keyframes circle2 {
+    0%   {
+        transform: translate(800%,-100%) skew(10deg);
+
+    }
+    50%  {
+        transform: translateX(0%) skew(0deg);
+    }
+}
+
+
+@keyframes circle3 {
+    0%   {
+        transform: translate(500%,-400%) skew(10deg);
+
+    }
+    50%  {
+        transform: translateX(0%) skew(0deg);
+    }
+}
+
+
+@keyframes logo {
+    0%   {
+        transform:scale(0);
+
+    }
+    50%  {
+        transform: scale(1);
+    }
 }
