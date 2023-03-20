@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notoficaciones>
+    <notificacion>
+        <mensaje>A aigmez y BelenMone les ha gustado tu última publicación.</mensaje>
+    </notificacion>
+    <notificacion>
+        <mensaje>BelenMone ahora es tu amigo/a.</mensaje>
+    </notificacion>
+    <notificacion>
+        <mensaje>fer64 quiere ser tu amigo/a.</mensaje>
+        <boton>Aceptar</boton>
+        <boton>Rechazar</boton>
+    </notificacion>
+    <notificacion>
+        <mensaje>dani30 y benja00 ahora son tus amigos.</mensaje>
+    </notificacion>
+</notoficaciones>
