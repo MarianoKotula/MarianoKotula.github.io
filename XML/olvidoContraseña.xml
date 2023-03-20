@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cuentas>
+    <cuenta> 
+        <email>ferzarred@gmail.com</email>
+    </cuenta>
+    
+    <cuenta> 
+        <email>jordisalvaje@gmail.com</email>
+    </cuenta>
+    
+    <cuenta> 
+        <email>belenmoneda@gmail.com</email>
+    </cuenta>
+    
+    <cuenta> 
+        <email>ainhoagomez@gmail.com</email>
+    </cuenta>
+
+    <cuenta> 
+        <email>benbragra@gmail.com</email>
+    </cuenta>
+
+    <cuenta> 
+        <email>danlopmar13@gmail.com</email>
+    </cuenta>
+
+    <cuenta> 
+        <email>belenmoneda@gmail.com</email>
+    </cuenta>
+</cuentas>

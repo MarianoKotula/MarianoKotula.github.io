@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<etiquetados>
+    <etiquetas_espaniol>
+        <crear_cuenta>Crear una cuenta</crear_cuenta>
+        <nombre_usuario>Nombre Completo</nombre_usuario>
+        <email>Email</email>
+        <contraseña>Contraseña</contraseña>
+        <boton_crear_cuenta>Crear Cuenta</boton_crear_cuenta>
+        <iniciar_sesion>Ya tienes una cuena? Iniciar Sesion</iniciar_sesion>
+    </etiquetas_espaniol>
+
+    
+    <etiquetas_ingles>
+        <crear_cuenta>Create an account</crear_cuenta>
+        <nombre_usuario>Full name</nombre_usuario>
+        <email>Email</email>
+        <contraseña>Password</contraseña>
+        <boton_crear_cuenta>Create Account</boton_crear_cuenta>
+        <iniciar_sesion>Already have an account? Log in</iniciar_sesion>
+    </etiquetas_ingles>
+
+</etiquetados>

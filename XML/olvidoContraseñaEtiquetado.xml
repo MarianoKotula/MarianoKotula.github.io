@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<etiquetados>
+    <etiquetas_espaniol>
+        <recuperar_cuenta>Recuperacion de contraseña</recuperar_cuenta>
+        <email>Email</email>
+        <boton_recuperar_cuenta>Enviar Enlace</boton_recuperar_cuenta>
+        <crear_cuenta>No tienes una cuena? Crear cuenta</crear_cuenta>
+    </etiquetas_espaniol>
+
+    
+    <etiquetas_ingles>
+        <recuperar_cuenta>Password recovery</recuperar_cuenta>
+        <email>Email</email>
+        <boton_recuperar_cuenta>Send Link</boton_recuperar_cuenta>
+        <crear_cuenta>Do you have an account? Create Account</crear_cuenta>  
+    </etiquetas_ingles>
+
+</etiquetados>

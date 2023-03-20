@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml-stylesheet href="../css/Ejercicio3.css" type="text/css" ?> -->
+<!DOCTYPE usuarios [
+    <!ELEMENT usuarios (usuario*)>
+<!ELEMENT usuario (nombre_usuario*,contraseña*)>
+<!ELEMENT nombre_usuario (#PCDATA)>
+<!ELEMENT contraseña (#PCDATA)>
+]>
+
+<usuarios>
+    
+    <usuario>
+        <nombre_usuario>@Dani30 </nombre_usuario>
+        <contraseña>Dan1234 </contraseña>
+    </usuario>
+
+    <usuario>
+        <nombre_usuario>@Fer64  </nombre_usuario>
+        <contraseña>Fer1234 </contraseña>
+    </usuario>
+
+    <usuario>
+        <nombre_usuario>@JordiSalvaje </nombre_usuario>
+        <contraseña>Jordi1234 </contraseña>
+    </usuario>
+
+    <usuario>
+        <nombre_usuario>@BelenMone </nombre_usuario>
+        <contraseña>Bel1234 </contraseña>
+    </usuario>
+
+    <usuario>
+        <nombre_usuario>@Aigmez </nombre_usuario>
+        <contraseña>Ain1234 </contraseña>
+    </usuario>
+
+    <usuario>
+        <nombre_usuario>@Benja00 </nombre_usuario>
+        <contraseña>Benja1234 </contraseña>
+    </usuario>
+
+</usuarios>

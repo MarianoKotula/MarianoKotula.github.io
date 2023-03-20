@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cuentas>
+    <cuenta> 
+        <nombre_usuario>Dani30 </nombre_usuario>
+        <email>danlopmar13@gmail.com</email>
+        <contraseña>Dan1234</contraseña>
+    </cuenta>
+
+    <cuenta> 
+        <nombre_usuario>Fer64  </nombre_usuario>
+        <email>ferzarred@gmail.com</email>
+        <contraseña>Fer1234</contraseña>
+    </cuenta>
+
+    <cuenta> 
+        <nombre_usuario>JordiSalvaje </nombre_usuario>
+        <email>jordisalvaje@gmail.com</email>
+        <contraseña>Jordi1234</contraseña>
+    </cuenta>
+
+    <cuenta> 
+        <nombre_usuario>BelenMone </nombre_usuario>
+        <email>belenmoneda@gmail.com</email>
+        <contraseña>Bel1234</contraseña>
+    </cuenta>
+
+    <cuenta> 
+        <nombre_usuario>Aigmez  </nombre_usuario>
+        <email>ainhoagomez@gmail.com</email>
+        <contraseña>Ain1234</contraseña>
+    </cuenta>
+
+    <cuenta> 
+        <nombre_usuario>Benja00 </nombre_usuario>
+        <email>benbragra@gmail.com</email>
+        <contraseña>Benja1234</contraseña>
+    </cuenta>
+    
+</cuentas>
