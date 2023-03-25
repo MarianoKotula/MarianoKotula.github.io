@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PaginaAmigos>
+    <Navegacion>
+        <Logo>LYMO</Logo>
+
+        <Botones>
+            <Boton>Home</Boton>
+            <Boton>Chat</Boton>
+            <Boton>Notificaciones</Boton>
+            <Boton>Perfil</Boton>
+        </Botones>
+    </Navegacion>
+
+    <Amigos>
+        <Amigo>
+            <Nombre>@Dani30</Nombre>
+            <AmigoDesde>12/05/2016</AmigoDesde>
+        </Amigo>
+        <Amigo>
+            <Nombre>@Fer64</Nombre>
+            <AmigoDesde>10/04/2018</AmigoDesde>
+        </Amigo>
+        <Amigo>
+            <Nombre>@JordiSalvaje</Nombre>
+            <AmigoDesde>27/07/2015</AmigoDesde>
+        </Amigo>
+        <Amigo>
+            <Nombre>@BelenMone</Nombre>
+            <AmigoDesde>12/02/2014</AmigoDesde>
+        </Amigo>
+        <Amigo>
+            <Nombre>@Aigmez</Nombre>
+            <AmigoDesde>10/03/2014</AmigoDesde>
+        </Amigo>
+        <Amigo>
+            <Nombre>@Benja00</Nombre>
+            <AmigoDesde>30/10/2018</AmigoDesde>
+        </Amigo>
+    </Amigos>
+</PaginaAmigos>

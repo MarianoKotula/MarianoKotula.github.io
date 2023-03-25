@@ -20,12 +20,16 @@ header
     height: 10vh;
     width: 100vw;
     transition: all 1s;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo-header
 {
-    float: left;
-    padding: 15px 0 0 40px;
+    padding-bottom:  40px;
+    padding-left: 15px;
     text-decoration: none;
     width: 20px;
     height: 10px;
@@ -62,7 +66,9 @@ header
 
 
 
-
+span {
+    font-weight: bold;
+}
 
 
 
